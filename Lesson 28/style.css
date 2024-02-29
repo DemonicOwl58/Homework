@@ -1,0 +1,38 @@
+.text {
+    font-family: "Open Sans", serif;
+}
+
+.lorem {
+    text-align: left;
+    text-decoration: line-through;
+}
+
+.center {
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.russ {
+    text-decoration: overline;
+    text-decoration-style: wavy;
+    text-shadow: #97009c 0px 0px 3px;
+    word-spacing: 10px;
+}
+
+.line {
+    letter-spacing: 5px;
+    text-decoration: underline;
+    text-decoration-style: double;
+}
+
+.right {
+    text-align: right;
+    font-size: 30px;
+    line-height: 50px;
+}
+
+.lux {
+    font-style: italic;
+    text-decoration: underline;
+    text-decoration-style: dotted;
+}
