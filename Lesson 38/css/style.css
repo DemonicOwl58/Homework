@@ -1,0 +1,41 @@
+body {
+    font-size: 40px;
+    background-color: black;
+    margin: 20px;
+    color: white;
+    font-family: sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.flexbox {
+    display: flex;
+    border: 20px solid #edddbd;
+    min-height: 50vh;
+    min-height: 50vh;
+    box-shadow: 0 0 3.75rem -0.625rem #00ffff66;
+}
+
+.flexbox_item {
+    border: 20px solid #b9a074;
+}
+
+.flexbox_item:nth-child(2) .flexbox_content {
+    padding: 60px 40px;
+}
+
+.flexbox_content {
+    border: solid;
+    padding: 40px;
+background: linear-gradient(#6f4916, #7e5926);
+}
+/* ================================================ */
+
+img {
+    margin: 30px 0 0 0;
+    border-radius: 30px;
+width: 80%;
+height: 80%;
+}
