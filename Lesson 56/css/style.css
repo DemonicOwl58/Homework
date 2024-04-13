@@ -1,0 +1,54 @@
+.buttons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.buttons__one {
+    background: blue;
+    height: 150px;
+    width: 700px;
+    margin: 45px;
+    border-radius: 20px;
+}
+
+.buttons__two {
+    background: red;
+    height: 150px;
+    width: 700px;
+    border-radius: 20px;
+}
+
+.input {
+    height:50px;
+    width: 700px;
+    background: #585757;
+    color: blue;
+}
+
+/* ===================================== */
+
+.buttons__one:hover {
+    background-color: red;
+    color: blue;
+}
+
+
+.buttons__two:active {
+    background-color: blue;
+    color: red;
+}
+
+
+.text__list:first-child {
+    color: aqua;
+}
+
+.text__list:last-child {
+    color: rgb(49, 241, 23);
+}
+
+.text__list:nth-child(6) {
+    color: rgb(194, 16, 16);
+}
