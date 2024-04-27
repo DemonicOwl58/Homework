@@ -1,0 +1,56 @@
+body {
+    background: black;
+}
+
+.wrapper {
+    padding: 50px;
+    height: 100%;
+}
+
+.container {
+    position: relative;
+    height: 150px;
+    background: rgb(73, 73, 73);
+    border-radius: 75px 0 0 75px;
+}
+
+.block {
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background: white;
+}
+
+/* ===================================================== */
+/* .container {
+    animation: container-move 1s infinite alternate;
+}
+
+@keyframes container-move {
+    100% {
+        border-radius: 0%;
+    }
+} */
+
+.block {
+    animation: block-move 2s .3s infinite alternate linear,
+block-color 2s .3s infinite alternate linear;
+}
+
+@keyframes block-move {
+    0% {
+        left: 0%;
+    }
+
+    100% {
+        border-radius: 0%;
+        left: calc(100% - 150px);
+    }
+}
+
+@keyframes block-color {
+    100% {
+        background: green;
+    }
+}
