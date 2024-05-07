@@ -1,0 +1,13 @@
+body {
+    font-family: "Montserrar", "Arial", sans-serif;
+    color: #25282b;
+    background: #f5f5f5;
+    line-height: 125%;
+}
+
+.container {
+    max-width: 1230px;
+    margin: 0 auto;
+    padding: 0 15px;
+    height: 100%;
+}
