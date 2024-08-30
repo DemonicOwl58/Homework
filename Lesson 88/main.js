@@ -24,3 +24,23 @@ button.addEventListener('click', () => {
     console.log('Click сработал')
 })
 
+
+// ===================keydown==========================//
+document.addEventListener('keydown', () => {
+    console.log('keydown сработал')
+})
+
+
+// ===================submit===========event.preventDefault============getElementById====//
+const form = document.querySelector('.form-example')
+
+form.addEventListener('submit', (event) => {
+    event.preventDefault()
+    console.log('submit сработал')
+
+    const name = document.getElementById('name').value
+    const email = document.getElementById('email').value
+
+    console.log(`Введенное имя: ${name}`)
+    console.log(`Введенный email: ${email}`)
+});
