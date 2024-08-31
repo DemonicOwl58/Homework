@@ -1,0 +1,15 @@
+
+*{
+    box-sizing: border-box;
+}
+.btn {
+    background-color: blue;
+    padding: 5px 15px;
+    border-radius: 10px;
+    border: 1px solid white;
+    font-weight: 500;
+}
+
+.red {
+    background-color: red;
+}
