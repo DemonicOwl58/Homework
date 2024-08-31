@@ -1,0 +1,13 @@
+.blue {
+    color: blue;
+}
+
+.move {
+    transform: translateX(38vw) translateY(65vh);
+}
+
+.text {
+    display: inline-block;
+    transition: .8s;
+    font-size: 5px;
+}
